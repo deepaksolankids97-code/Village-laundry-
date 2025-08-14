@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naresh drycleans- Apke Gaon Ki Laundry</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="https://img.icons8.com/bubbles/100/000000/washing-machine.png" alt="Laundry Icon">
+            <h1>Naresh Drycleans</h1>
+            <p>Kapde dhulwane ke liye neeche form bharein</p>
+        </div>
+        
+        <form id="laundry-form">
+            <label for="name">Aapka Naam:</label>
+            <input type="text" id="name" placeholder="Yahan apna naam likhein" required>
+
+            <label for="address">Aapka Pata:</label>
+            <input type="text" id="address" placeholder="Ghar ka pata ya aas-paas ki jagah" required>
+
+            <label for="shirts">Shirt/Kurta (₹15):</label>
+            <input type="number" id="shirts" min="0" value="0">
+
+            <label for="pants">Pant/Pajama (₹20):</label>
+            <input type="number" id="pants" min="0" value="0">
+
+            <label for="others">Dusre Kapde (Saree, Chadar, etc.):</label>
+            <input type="number" id="others" min="0" value="0" placeholder="Dusre kapdo ki sankhya">
+
+            <button type="submit">WhatsApp par Order Bhejein</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
